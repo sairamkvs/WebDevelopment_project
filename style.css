@@ -1,0 +1,137 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: 	#006400;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.overlay {
+    background-color:#009E60;
+    padding: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #009E60;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.coupon-section {
+    padding: 40px;
+}
+
+.coupon-card {
+    background-color: #fff;
+    border: 1px solid #009E60;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #009E60;
+}
+
+.coupon-card img {
+    max-width: 20%;
+}
+
+.coupon-card h3 {
+    font-size: 24px;
+}
+
+.coupon-card p {
+    margin-top: 10px;
+}
+
+.coupon-button {
+    display: block;
+    background-color: #009E60;
+    color: #fff;
+    text-align: left;
+    padding: 10px 0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cashback-section {
+    background-color: #009E60;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about-section,
+.contact-section {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.contact-section {
+    margin-top: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #006400;;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
