@@ -1,5 +1,5 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body, h1, h2, h3, h4, p, ul, li {
     margin: 0;
     padding: 0;
 }
@@ -10,23 +10,31 @@ body {
 }
 
 header {
-    background-color: 	#006400;
+    background-color: #006400;
     color: #fff;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 32px;
+    font-size: 50px;
+    margin-bottom: 5px;
 }
-
+.latest-coupon {
+    background-color: #019726;
+    font-size: 30px;
+    padding: 20px ;
+    text-align: center;
+}
 nav ul {
     list-style: none;
+    text-align: right;
+    margin-top: 20px;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -46,18 +54,21 @@ nav ul li a {
 
 .hero h2 {
     font-size: 40px;
+    margin-bottom: 10px;
+
 }
 
 .overlay {
-    background-color:#009E60;
+    background-color: rgba(0, 158, 96, 0.9);
     padding: 20px;
+    border-radius: 5px;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #009E60;
+    background-color: #009e28;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -65,6 +76,9 @@ nav ul li a {
 }
 
 .coupon-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
     padding: 40px;
 }
 
@@ -72,35 +86,42 @@ nav ul li a {
     background-color: #fff;
     border: 1px solid #009E60;
     padding: 20px;
-    margin: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 5px #009E60;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
 }
 
 .coupon-card img {
-    max-width: 20%;
+    max-width: 100%;
+    border-radius: 5px;
+    object-position: left center;
+    margin-right: 20px;
+    width: 100px; 
+    height: auto; 
 }
 
 .coupon-card h3 {
     font-size: 24px;
+    margin-top: 10px;
 }
 
 .coupon-card p {
     margin-top: 10px;
+    color: #333;
+    text-align: right;
 }
 
 .coupon-button {
     display: block;
     background-color: #009E60;
     color: #fff;
-    text-align: left;
+    text-align: center;
     padding: 10px 0;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     margin-top: 10px;
 }
-
 .cashback-section {
     background-color: #009E60;
     color: #fff;
@@ -112,6 +133,7 @@ nav ul li a {
 .contact-section {
     padding: 40px;
     background-color: #fff;
+    border-radius: 5px;
 }
 
 .contact-section {
@@ -120,9 +142,9 @@ nav ul li a {
 
 .cta-button {
     display: inline-block;
-    background-color: #ff6600;
+    background-color: #6de305;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
@@ -130,7 +152,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: #006400;;
+    background-color: #006400;
     color: #fff;
     text-align: center;
     padding: 20px 0;
